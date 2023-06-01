@@ -401,8 +401,8 @@ void  MapView::setColourTheme(ColourTheme::Theme theme)
       colours = &ColourTheme::autumn();//&_autumn;
       break;
       
-    case ColourTheme::Winter:
-      colours = &ColourTheme::winter();//&_winter;
+    case ColourTheme::Franco:
+      colours = &ColourTheme::franco();//&_franco;
       break;
       
     case ColourTheme::Greyscale:

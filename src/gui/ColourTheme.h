@@ -8,7 +8,7 @@
 class ColourTheme
 {
 public:
-  typedef enum {Greyscale, Camo, Pastelle, Vibrant, Spring, Summer, Autumn, Winter}  Theme;
+  typedef enum {Greyscale, Camo, Pastelle, Vibrant, Spring, Summer, Autumn, Franco}  Theme;
 
   static const QVector<QColor> & greyscale() { return _greyscale; };
   static const QVector<QColor> & camo() { return _camo; };
@@ -17,7 +17,7 @@ public:
   static const QVector<QColor> & spring() { return _spring; };
   static const QVector<QColor> & summer() { return _summer; };
   static const QVector<QColor> & autumn() { return _autumn; };
-  static const QVector<QColor> & winter() { return _winter; };
+  static const QVector<QColor> & franco() { return _franco; };
 
 private:
   const static QVector<QColor> _greyscale;
@@ -27,7 +27,7 @@ private:
   const static QVector<QColor> _spring;
   const static QVector<QColor> _summer;
   const static QVector<QColor> _autumn;
-  const static QVector<QColor> _winter;
+  const static QVector<QColor> _franco;
 
 };
 

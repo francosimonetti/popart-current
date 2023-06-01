@@ -97,7 +97,7 @@ ColourDialog::ColourDialog(QWidget *parent, ColourTheme::Theme currentTheme, Qt:
 
   themeButton = new QToolButton(this);
   themeButton->setIcon(QIcon(QPixmap(xpm::winter)));
-  themeButton->setToolTip("Winter");
+  themeButton->setToolTip("Franco");
   themeButton->setCheckable(true);
   themeButton->setIconSize(_iconSize);
   themeButton->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
@@ -167,7 +167,7 @@ void ColourDialog::changeColour(int ID)
       _theme = ColourTheme::Autumn;
       break;
     case 7:
-      _theme = ColourTheme::Winter;
+      _theme = ColourTheme::Franco;
       break;
     case 0:
     default:
